@@ -1,5 +1,5 @@
 # Cambiar al directorio del script
-Set-Location "C:\Users\Maria\OneDrive\Desktop\Lulys"
+Set-Location "C:\Scripts"
 
 # Crear carpeta si no existe
 if (-not (Test-Path -Path ".\logs-conectividad" -PathType Container)) {
