@@ -1,5 +1,5 @@
 # Ruta al log
-$logPath = "C:\Users\cermi\OneDrive\Desktop\Scripts Powershell\logs\ping_log.txt"
+$logPath = "C:\Scripts Powershell\logs\ping_log.txt"
 
 # Crear carpeta si no existe
 if (!(Test-Path -Path (Split-Path $logPath))) {
